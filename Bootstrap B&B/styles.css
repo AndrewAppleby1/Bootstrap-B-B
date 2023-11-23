@@ -22,3 +22,11 @@ body {
     height: 200px;
     object-fit: contain;
 }
+.contact-form {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+.map {
+    height: 400px;
+}
