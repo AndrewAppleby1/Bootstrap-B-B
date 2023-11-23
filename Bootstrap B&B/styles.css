@@ -1,7 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: white;
+}
+
+.index-div {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .navbar-brand,
@@ -22,11 +27,45 @@ body {
     height: 200px;
     object-fit: contain;
 }
-.contact-form {
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 5px;
+
+.container {
+    display: flex;
+    flex-direction: row;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form,
 .map {
-    height: 400px;
+    flex: 1;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .row {
+    width: 100%;
+}
+
+.footer .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.index-container {
+    display: block;
 }
